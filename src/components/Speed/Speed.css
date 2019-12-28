@@ -1,0 +1,22 @@
+.speedWrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  margin-top: 15px;
+}
+
+.speedBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 28px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.isActive {
+  background: rgb(51, 49, 49) !important;
+  color: #fff !important;
+  cursor: default;
+}
